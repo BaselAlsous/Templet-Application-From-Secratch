@@ -1,0 +1,53 @@
+name: flutter_template
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Lnaguage
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+  cupertino_icons: ^1.0.2
+  # Check Network in Application
+  connectivity_plus: ^3.0.3
+  # App Prvider
+  provider: ^6.0.2
+  # Shared Preferences
+  shared_preferences: ^2.0.15
+  # Cach Netwok Image
+  cached_network_image: ^3.2.0
+  # Dots in introdation Screen
+  smooth_page_indicator: ^1.0.0+2
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/image/
+    - assets/icon/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
